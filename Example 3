@@ -1,0 +1,21 @@
+public class Ex1{
+
+public static void main(String[] args){
+
+int x=0;
+try{
+    x=5/2;
+}
+catch(Exception e){
+
+System.out.println("Inside catch block");
+}
+
+finally {
+	System.out.println("Inside finally block");
+}
+
+System.out.println(x);
+}
+
+}
