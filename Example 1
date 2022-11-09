@@ -1,0 +1,17 @@
+public class Ex1{
+
+public static void main(String[] args){
+
+int x=0;
+try{
+    x=5/0;
+}
+catch(Exception e){
+
+System.out.println("Inside catch block");
+}
+
+System.out.println(x);
+}
+
+}
